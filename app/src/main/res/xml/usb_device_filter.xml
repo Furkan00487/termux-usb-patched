@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic ADB Interface (0xFF / 0x42 / 0x01) - Bugjaeger tactic -->
+    <usb-device class="255" subclass="66" protocol="1" />
+
+    <!-- Generic Fastboot Interface (0xFF / 0x42 / 0x03) - Bugjaeger tactic -->
+    <usb-device class="255" subclass="66" protocol="3" />
+
+    <!-- Unisoc / Spreadtrum BootROM & Download Mode (0x1782:0x4D00) - Lenovo Tab M10 3rd Gen TB328FU -->
+    <usb-device vendor-id="6018" product-id="19712" />
+    <usb-device vendor-id="6018" />
+
+    <!-- Lenovo USB Vendor ID (0x17EF) -->
+    <usb-device vendor-id="6127" />
+
+    <!-- Google ADB / Fastboot Vendor ID (0x18D1) -->
+    <usb-device vendor-id="6353" />
+
+    <!-- MediaTek BootROM / Preloader / Fastboot (0x0E8D) - Lenovo Tab M10 Plus 3rd Gen TB125FU -->
+    <usb-device vendor-id="3725" />
+
+    <!-- Qualcomm EDL / Fastboot / Diag (0x05C6) - Lenovo Tab M10 Plus 3rd Gen TB128FU -->
+    <usb-device vendor-id="1478" />
+
+    <!-- Samsung (0x04E8) & Xiaomi (0x2717) -->
+    <usb-device vendor-id="1256" />
+    <usb-device vendor-id="10007" />
+</resources>
